@@ -1,0 +1,65 @@
+﻿<Window x:Class="Wpf_learn1.TestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_learn1"
+        mc:Ignorable="d"
+        Title="TestWindow" Height="450" Width="800">
+
+    <Grid ShowGridLines="True">
+        <!--Grid.RowDefinitions表示用户区分行(一共分四行)-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <!--Grid.Row="0" Grid.Column="0" 表示第1行第1列-->
+        <!--利用StackPanel布局控件自动排列Button-->
+        <!--Orientation 表示StackPanel自动排列的方式（水平/竖直）-->
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+            <Button Height="50" Width="100"/>
+            <Button Height="50" Width="100"/>
+        </StackPanel>
+
+        <!--Grid.Row="1" Grid.Column="0" 表示第2行第1列-->
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+            <Button Height="50" Width="50"/>
+            <Button Height="50" Width="50"/>
+        </StackPanel>
+
+        <!--Grid.Row="2" Grid.Column="0" 表示第3行第1列-->
+        <!--Grid.ColumnDefinitions 表示用户区分列(在第三行分两列)-->
+        <Grid ShowGridLines="True" Grid.Row="2" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="730"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Grid.Row="0" Grid.Column="0" 表示第三行中的第1行第1列-->
+            <StackPanel Grid.Row="0" Grid.Column="0">
+                <Button Height="40" Width="70" Content="1"/>
+                <Button Height="40" Width="70" Content="2"/>
+                <Button Height="40" Width="70" Content="3"/>
+            </StackPanel>
+
+            <!--Grid.Row="0" Grid.Column="0" 表示第三行中的第1行第2列-->
+            <StackPanel Grid.Row="0" Grid.Column="1">
+                <Button Height="40"/>
+                <Button Height="40"/>
+                <Button Height="40"/>
+            </StackPanel>
+        </Grid>
+
+        <!--Grid.Row="3" Grid.Column="0" 表示第4行第1列-->
+        <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal">
+            <Button Height="50" Width="50"/>
+            <Button Height="50" Width="50"/>
+            <Button Height="50" Width="50"/>
+            <Button Height="50" Width="50"/>
+            <Button Height="50" Width="50"/>
+        </StackPanel>
+    </Grid>
+</Window>

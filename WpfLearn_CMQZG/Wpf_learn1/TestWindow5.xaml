@@ -1,0 +1,38 @@
+﻿<Window x:Class="Wpf_learn1.TestWindow5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_learn1"
+        mc:Ignorable="d"
+        Title="TestWindow5" Height="450" Width="800">
+    <Grid>
+        <!--常规定义Button的属性-->
+        <Button Height="100" Width="200" Background="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center"  Content="自定义按钮"  FontSize="30" Foreground="Red" BorderBrush="Black" BorderThickness="4">
+            <!--通过Button模板，自定义按钮样式-->
+            <Button.Template>
+                <!--控制模板，类型为Button-->
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <!--使用Border装饰控件来自定义Button样式-->
+                    <!--Border装饰控件可以绑定Button的属性，通过外部输入进行实时修改-->
+                    <Border x:Name="MyBorder" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <!--Button的内容则需要通过TextBlock来进行修改-->
+                        <TextBlock x:Name="MyTextBlock" Text="{TemplateBinding Content}" FontSize="{TemplateBinding FontSize}" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}"/>
+                    </Border>
+                    <!--通过控制模板里面的Triggers属性，可以进一步添加交互功能-->
+                    <ControlTemplate.Triggers>
+                        <!--如果检测到鼠标，则将MyBorder的Background属性修改为Balck-->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="MyBorder" Property="Background" Value="Black"/>
+                        </Trigger>
+                        <!--如果检测到鼠标按下，则将MyBorder的Background属性修改为Yellow，以及MyTextBlock的FontSize修改为20-->
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="MyBorder" Property="Background" Value="Yellow"/>
+                            <Setter TargetName="MyTextBlock" Property="FontSize" Value="20"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>

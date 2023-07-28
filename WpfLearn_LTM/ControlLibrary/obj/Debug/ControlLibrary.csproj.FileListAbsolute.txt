@@ -1,0 +1,13 @@
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary.csproj.AssemblyReference.cache
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\SalaryCaculator.g.cs
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary_MarkupCompile.cache
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary_MarkupCompile.lref
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\bin\Debug\ControlLibrary.dll
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\bin\Debug\ControlLibrary.pdb
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\SalaryCaculator.baml
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary.g.resources
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary.Properties.Resources.resources
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.cache
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary.csproj.CoreCompileInputs.cache
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary.dll
+D:\SIC\代码编写\WpfCode\WpfLearn_LTM\ControlLibrary\obj\Debug\ControlLibrary.pdb

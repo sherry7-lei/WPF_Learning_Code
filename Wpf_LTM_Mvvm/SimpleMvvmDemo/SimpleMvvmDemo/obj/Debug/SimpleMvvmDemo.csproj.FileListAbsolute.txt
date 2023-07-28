@@ -1,0 +1,16 @@
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\bin\Debug\SimpleMvvmDemo.exe.config
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\bin\Debug\SimpleMvvmDemo.exe
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\bin\Debug\SimpleMvvmDemo.pdb
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.csproj.AssemblyReference.cache
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.csproj.SuggestedBindingRedirects.cache
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\MainWindow.g.cs
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\App.g.cs
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo_MarkupCompile.cache
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo_MarkupCompile.lref
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\MainWindow.baml
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.g.resources
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.Properties.Resources.resources
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.csproj.GenerateResource.cache
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.csproj.CoreCompileInputs.cache
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.exe
+D:\SIC\代码编写\WpfCode\Wpf_LTM_Mvvm\SimpleMvvmDemo\SimpleMvvmDemo\obj\Debug\SimpleMvvmDemo.pdb

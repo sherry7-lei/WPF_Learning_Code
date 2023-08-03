@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfLearn2.Chapter3.TestWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLearn2.Chapter3"
+        mc:Ignorable="d"
+        Title="TestWindow1" Height="450" Width="800">
+    <!--利用attribute = value 的方式进行赋值 对应书籍3.2.1和3.2.2-->
+    <Window.Resources>
+        <local:Human x:Key="human" Name="Tim"  Child="Litter Time"/>
+    </Window.Resources>
+    <Grid>
+        <TextBlock x:Name="text" Text="nothing" Margin="10" FontSize="30"/>
+        <Button Height="30" Width="100" Click="Button_Click"/>
+    </Grid>
+</Window>

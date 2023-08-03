@@ -55,21 +55,58 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="TestWindow1.xaml.cs">
+    <Compile Include="Chapter10\TestWindow1.xaml.cs">
       <DependentUpon>TestWindow1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TestWindow2.xaml.cs">
+    <Compile Include="Chapter11\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter3\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter3\TestWindow2.xaml.cs">
       <DependentUpon>TestWindow2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TestWindow3.xaml.cs">
+    <Compile Include="Chapter3\TestWindow3.xaml.cs">
       <DependentUpon>TestWindow3.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TestWindow4.xaml.cs">
+    <Compile Include="Chapter3\TestWindow4.xaml.cs">
       <DependentUpon>TestWindow4.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TestWindow5.xaml.cs">
+    <Compile Include="Chapter4\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\TestWindow5.xaml.cs">
       <DependentUpon>TestWindow5.xaml</DependentUpon>
     </Compile>
+    <Page Include="Chapter10\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter11\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter4\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter6\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter7\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter8\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter9\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -78,27 +115,39 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Chapter6\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter7\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="TestWindow1.xaml">
+    <Page Include="Chapter3\TestWindow1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TestWindow2.xaml">
+    <Page Include="Chapter3\TestWindow2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TestWindow3.xaml">
+    <Page Include="Chapter3\TestWindow3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TestWindow4.xaml">
+    <Page Include="Chapter3\TestWindow4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TestWindow5.xaml">
+    <Page Include="Chapter5\TestWindow5.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -137,6 +186,10 @@
       <Project>{c858114e-a2d6-43d4-b3d2-2f3f3c2a19fc}</Project>
       <Name>ControlLibrary</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Chapter1\" />
+    <Folder Include="Chapter2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

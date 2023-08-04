@@ -3,10 +3,43 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:WpfLearn2.Chapter4"
         mc:Ignorable="d"
+        x:ClassModifier="public"
         Title="TestWindow1" Height="450" Width="800">
+    <!-- 资源字典 -->
+    <Window.Resources>
+        <sys:String x:Key="myString">
+            Hello WPF Resource!
+        </sys:String>
+    </Window.Resources>
+    <!-- 4.1 + 4.2 -->
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <!-- 4.1 Attribute + 标记扩展 + XMAL指令元素-->
+        <!-- 4.2 Attribute -->
+        <!-- 4.2.1 x:Class 表示将XAML的编译结果与哪一个类合并-->
+        <!-- 4.2.2 x:ClassModifier 表示类的访问级别(x:ClassModifier="public") -->
+        <!-- 4.2.3 x:name 表示为TestWindow1.Content的标签对象声明一个引用变量，便于后台C#直接访问 -->
+        <StackPanel>
+            <TextBox Margin="5"/>
+            <Button Height="50" Width="100" Content="ButtonOne" Margin="5" Click="Button_Click"/>
+            <TextBox x:Name="tb"  Margin="5"/>
+            <Button Height="50" Width="100" Content="ButtonTwo" Margin="5" Click="Button_Click_1"/>
+        </StackPanel>
+        <!-- 4.2.4 x:FieldModifier 表示字段（控件、实例对象）的访问级别-->
+        <!-- 4.2.5 x:Key 表示为Window.Resources资源字典（Key-Value）添加索引Key,通过Key可以索引到Value -->
+        <StackPanel Grid.Row="1" Background="Gray">
+            <TextBox Text="{StaticResource ResourceKey=myString}" Margin="5"/>
+            <TextBox x:Name="textBox" Margin="5"/>
+            <Button Height="50" Width="100" Content="Show" Margin="5" Click="Button_Click_2" />
+        </StackPanel>
+        <!-- 4.2.6 x:Shared 与x:Key搭配使用
+                            如果x:Shared="True"表示每次检索到资源字典中的都是同一个对象
+                            如果x:Shared="False"表示每次检索到资源字典中对象是原本对象的拷贝-->
     </Grid>
 </Window>

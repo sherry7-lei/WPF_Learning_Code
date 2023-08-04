@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfLearn2.Chapter5.TestWindow4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLearn2.Chapter5"
+        mc:Ignorable="d"
+        Title="Load" Height="140" Width="300">
+    <!-- 5.4.4 (3) Canvas: 画布-->
+    <Canvas>
+        <TextBlock Text="User：" Canvas.Left="12" Canvas.Top="12"/>
+        <TextBox Height="23" Width="200" BorderBrush="Black" Canvas.Left="66" Canvas.Top="9"/>
+        <TextBlock Text="Password：" Canvas.Left="12" Canvas.Top="41" Width="36"/>
+        <TextBox Height="23" Width="200" BorderBrush="Black" Canvas.Left="66" Canvas.Top="38"/>
+        <Button Content="Ok" Height="22" Width="80" Canvas.Left="100" Canvas.Top="67"/>
+        <Button Content="Clear" Height="22" Width="80" Canvas.Left="186" Canvas.Top="67"/>
+    </Canvas>
+</Window>

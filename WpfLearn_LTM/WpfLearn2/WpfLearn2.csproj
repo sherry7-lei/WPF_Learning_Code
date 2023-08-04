@@ -73,8 +73,30 @@
     <Compile Include="Chapter3\TestWindow4.xaml.cs">
       <DependentUpon>TestWindow4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Chapter4\myButton.cs" />
+    <Compile Include="Chapter4\myWindow.xaml.cs">
+      <DependentUpon>myWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Chapter4\TestWindow1.xaml.cs">
       <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter4\TestWindow2.xaml.cs">
+      <DependentUpon>TestWindow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter4\TestWindow3.xaml.cs">
+      <DependentUpon>TestWindow3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\TestWindow1.xaml.cs">
+      <DependentUpon>TestWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\TestWindow2.xaml.cs">
+      <DependentUpon>TestWindow2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\TestWindow3.xaml.cs">
+      <DependentUpon>TestWindow3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\TestWindow4.xaml.cs">
+      <DependentUpon>TestWindow4.xaml</DependentUpon>
     </Compile>
     <Compile Include="Chapter5\TestWindow5.xaml.cs">
       <DependentUpon>TestWindow5.xaml</DependentUpon>
@@ -87,7 +109,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Chapter4\myWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Chapter4\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter4\TestWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter4\TestWindow3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter5\TestWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter5\TestWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter5\TestWindow3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter5\TestWindow4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter5\TestWindow6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -114,6 +168,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter5\TestWindow6.xaml.cs">
+      <DependentUpon>TestWindow6.xaml</DependentUpon>
     </Compile>
     <Compile Include="Chapter6\TestWindow1.xaml.cs">
       <DependentUpon>TestWindow1.xaml</DependentUpon>
@@ -190,6 +247,9 @@
   <ItemGroup>
     <Folder Include="Chapter1\" />
     <Folder Include="Chapter2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chapter5\button.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
